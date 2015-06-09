@@ -1,0 +1,2417 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2974710210</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Source\IAR\startup_efm32hg.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Source\system_efm32hg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\display.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displaypalemlib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displayls013b7dh03.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\si1147_i2c.c</file>
+      <file>$PROJ_DIR$\..\hidmouse.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\i2cspm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\si114x_functions.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\udelay.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emdrv\rtcdrv\src\rtcdriver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_cmu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_emu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_int.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_rmu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_wdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdch9.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdep.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdint.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbhal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\dmd\display\dmd_display.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_bitmap.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_line.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_circle.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_font_normal_8x8.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_rectangle.c</file>
+      <file>$PROJ_DIR$\..\background.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_string.c</file>
+      <file>$PROJ_DIR$\..\descriptors.c</file>
+      <file>$PROJ_DIR$\..\graphics.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_rtc.h</file>
+      <file>$PROJ_DIR$\..\prox.c</file>
+      <file>$PROJ_DIR$\..\si114x_algorithm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_system.h</file>
+      <file>$PROJ_DIR$\..\hidmouse.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\descriptors.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbdch9.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_wdog.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\inc\em_usb.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbdint.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usart.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\si1147_i2c.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_font_normal_8x8.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\displaypalemlib.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\bsp_stk_leds.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\si114x_functions.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbdint.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\system_efm32hg.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_rectangle.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dmareq.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_emu.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_assert.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_i2c.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\hidkbd.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_af_ports.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_idac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_usart.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_gpio.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\i2cspm.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\inc\em_usbd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_gpio.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\si114x_algorithm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\retargettextdisplay.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_usb_doep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\em_types.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbd.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\displaypalemlib.pbi</file>
+      <file>$PROJ_DIR$\..\scrolllcd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\dmd\dmd.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_assert.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_string.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_stk_leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_usb_diep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dma_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_prs_signals.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_chip.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\rtcdrv.pbi</file>
+      <file>$PROJ_DIR$\..\..\touchstation\prox.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_rmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_bitband.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_prs_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dmactrl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\textdisplay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_cmu.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\dmd_display.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\prox.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\config\displayls013b7dh03config.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_cmu.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\background.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\hidmouse.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_prs.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\bspconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_pcnt.h</file>
+      <file>$PROJ_DIR$\..\scrolllcd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dma_ch.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbdep.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_timer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_leuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_af_pins.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\usbdhidkbd.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_emu.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\hidmouse.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\display.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\system_efm32hg.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbhal.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_prs.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\i2cspm.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_timer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displayls013b7dh03.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displayconfigall.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_usb.h</file>
+      <file>$PROJ_DIR$\..\..\touchstation\prox.c</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\rtcdriver.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cm0plus.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_int.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_int.o</file>
+      <file>$PROJ_DIR$\..\usbconfig.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\udelay.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbdch9.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_devinfo.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\prox.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_font_normal_8x8.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\emstatus.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_msc.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\si114x_functions.o</file>
+      <file>$PROJ_DIR$\..\..\..\config\textdisplayconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_i2c.h</file>
+      <file>$PROJ_DIR$\..\graphics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emdrv\config\rtcdrv_config.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\bsp_stk_leds.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\si1147_i2c.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\descriptors.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_msc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\system_efm32hg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_timer_cc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_wdog.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_rectangle.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_int.pbi</file>
+      <file>$PROJ_DIR$\..\si114x_algorithm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\hidmouse.c</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbhal.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\inc\em_usbhal.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\si114x_algorithm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\hidkbd.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emdrv\rtcdrv\inc\rtcdriver.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_string.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_msc.c</file>
+      <file>$PROJ_DIR$\..\..\..\config\displayconfig.h</file>
+      <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_rmu.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\scrolllcd.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_rtc.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_rmu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_wdog.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_i2c.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbdep.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_vcmp.h</file>
+      <file>$PROJ_DIR$\..\descriptors.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_gpio_p.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbtimer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\display.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_bcp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_adc.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_circle.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\arm_math.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\rtcdrv.c</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\graphics.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Exe\usbdhidkbd.bin</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_line.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_emu.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\rtcdrv.o</file>
+      <file>$PROJ_DIR$\..\..\..\config\i2cspmconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\displaypalconfig.h</file>
+      <file>$PROJ_DIR$\..\prox.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_bitmap.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Exe\usbdhidkbd.out</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usart.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emdrv\common\inc\ecode.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\startup_efm32hg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_i2c.h</file>
+      <file>$PROJ_DIR$\..\displayconfigapp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_color.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_prs.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_bitmap.pbi</file>
+      <file>$PROJ_DIR$\..\background.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\hidkbd.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg322f64.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\uchar.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\rtcdriver.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\em_device.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\Si114x_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\udelay.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_assert.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\retargettextdisplayconfig.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\background.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displaybackend.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_gpio.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_cmu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_aes.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbd.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\si114x_functions.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_circle.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_mtb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_calibrate.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_rmu.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_usbtimer.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\List\usbdhidkbd.map</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\displayls013b7dh03.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\glib_line.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_timer.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\i2cspm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_acmp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\udelay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_romtable.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\inc\em_usbtypes.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_rtc.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\em_wdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\rtcdrv.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\displayls013b7dh03.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\hidkbd.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\dmd_display.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\scrolllcd.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Debug\Obj\graphics.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_cmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\si1147_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displaypal.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Source\IAR\startup_efm32hg.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Source\system_efm32hg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 241 52 197 85 66 178 208 236 232 204 141 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 236 232 204 141 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 241 52 197 85 66 178 208 264 117 174 116 137 181 225 111 136 152 80 214 199 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 264 117 174 116 137 181 225 111 136 152 80 214 199 244</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\displaypalemlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 241 52 197 85 66 178 208 264 183 174 186 63 117 116 236 232 204 141 253 192 238 230 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 106 101 75 86 70 89 118 201 265 137 181 225 111 136 152 80 214 280</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 264 183 174 186 63 117 116 236 232 204 141 253 192 238 230 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 106 101 75 86 70 89 118 201 265 137 181 225 111 136 152 80 214 280</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\displayls013b7dh03.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 273</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 241 52 197 85 66 178 208 264 183 174 186 63 117 116 137 181 225 111 136 152 80 214 280 244 199</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 264 183 174 186 63 117 116 137 181 225 111 136 152 80 214 280 244 199</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\si1147_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134 213 75 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 101 86 156 56 237 177 222 158 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\hidmouse.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 221 264 48 86 145 233 143 234 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 221 264 48 86 145 233 143 234 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\i2cspm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233 241 52 197 85 66 178 208 174 106 236 232 204 141 109 253 192 238 230 117 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 101 75 86 213 134 156</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\si114x_functions.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 250</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 237</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 237</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\udelay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 239</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 106 264 101 143 187 265</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emdrv\rtcdrv\src\rtcdriver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 241 52 197 85 66 178 208 174 116 236 232 204 141 109 253 192 238 230 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 106 264 101 221 143 187 177 222 158</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 258 217</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 101 86 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_emu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 101 106 43 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 101 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 106 101 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 143 236 232 204 141 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_rmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 256 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 127 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 86 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 261 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 219</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 106 101 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_wdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 48 86 145 233 221 264 143 234 106 101 269 172 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdch9.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 48 86 145 233 221 264 143 234 269 172 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 48 86 145 233 221 264 143 234 269 172 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdint.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 48 86 145 233 221 264 143 234 106 101 269 172 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbhal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 48 86 145 233 221 264 143 234 269 172 74 106 101 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 48 86 145 233 221 264 143 234 106 101 261 269 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\dmd\display\dmd_display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 63 174 264 117 116 199 152 80 137 181 225 111 136 214 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 80 236 232 204 141 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 209 264 63 226 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_bitmap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 216</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 80 209 264 63 174 226 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_line.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 264 80 209 63 174 226 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_circle.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 251</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 80 209 264 63 174 226 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_font_normal_8x8.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 209 264 63 174 226 84 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_rectangle.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 80 209 264 63 174 226 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\background.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 241 52 197 85 66 178 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_string.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 241 52 197 85 66 178 208 117 174 116 264 80 209 63 226 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\descriptors.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 44 109 241 52 197 85 66 178 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195 48 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 86 145 233 221 264 143 234 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\graphics.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 109 241 52 197 85 66 178 208 264 229 117 174 116 183 186</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157 109 241 52 197 85 66 178 208 264 80 209 63 174 226 84 199 152 137 181 225 111 136 214 105 77 229 117 116 183 186</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 44 109 241 52 197 85 66 178 208 215 169 157 264 229</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 96 43 264 106 101 256 127 75 86 189 48 145 233 221 143 234 195 44 215 134 213 156 169 56 237 177 222 158 202 118 201 157 229 89 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\prox.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 96 43 264 106 101 75 86 118 201</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\si114x_algorithm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 56 237 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_stk_leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 106 264 101 75 86 89 118 201 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 106 264 101 75 86 89 118 201 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\scrolllcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 199 264 109 241 52 197 85 66 178 208 152 80 137 181 225 111 136 214 155 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 199 264 109 241 52 197 85 66 178 208 152 80 137 181 225 111 136 214 155 242</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_prs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 86 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 86 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\touchstation\prox.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 96 43 264 106 101 75 86 118 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 96 43 264 106 101 75 86 118 201</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\hidmouse.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\hidkbd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 231</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 221 264 48 86 145 233 143 234 274</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 221 264 48 86 145 233 143 234 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_msc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 101 43 106 143 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 236 232 204 141 109 241 52 197 85 66 178 208 253 192 238 230 117 174 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 264 101 43 106 143 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\rtcdrv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233 241 52 197 85 66 178 208 174 236 232 204 141 109 253 192 238 230 117 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 106 264 101 127 187 272</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233 241 52 197 85 66 178 208 174 236 232 204 141 109 253 192 238 230 117 116 72 176 249 163 247 121 193 92 79 138 90 200 99 278 164 142 263 69 102 103 68 196 165 194 268 124 119 224 40 166 252 93 148 266 254 94 60 104 67 125 106 264 101 127 187 272</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbdhidkbd\Debug\Exe\usbdhidkbd.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 182 113 161 129 273 54 107 240 112 211 71 190 144 184 110 123 219 81 147 191 57 171 198 271 78 216 251 53 210 167 87 206 114 73 267 149 235 160 173 154 223 131 239 95 151 220</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Source\IAR\startup_efm32hg.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Source\system_efm32hg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\display.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displaypalemlib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displayls013b7dh03.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\si1147_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\i2cspm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\si114x_functions.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\udelay.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emdrv\rtcdrv\src\rtcdriver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_cmu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_emu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_int.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_wdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdch9.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdep.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdint.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbhal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\dmd\display\dmd_display.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_bitmap.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_line.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_circle.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_font_normal_8x8.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_rectangle.c</file>
+      <file>$PROJ_DIR$\..\background.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_string.c</file>
+      <file>$PROJ_DIR$\..\descriptors.c</file>
+      <file>$PROJ_DIR$\..\graphics.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_rtc.h</file>
+      <file>$PROJ_DIR$\..\prox.c</file>
+      <file>$PROJ_DIR$\..\si114x_algorithm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\inc\em_usb.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\si114x_functions.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dmareq.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_af_ports.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_idac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_usart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\inc\em_usbd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\retargettextdisplay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_usb_doep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\em_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\dmd\dmd.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_stk_leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_usb_diep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dma_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_prs_signals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_chip.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_rmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_bitband.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_prs_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dmactrl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\textdisplay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_cmu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\displayls013b7dh03config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\hidmouse.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_circle.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbd.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_timer.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\descriptors.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_timer.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_wdog.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbtimer.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_string.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\si114x_algorithm.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Exe\usbdhidkbd.out</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_emu.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_assert.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\si114x_functions.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\main.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbdep.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_cmu.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_bitmap.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\si114x_functions.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\bsp_stk_leds.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\si1147_i2c.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\descriptors.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\displaypalemlib.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\si1147_i2c.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_gpio.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\graphics.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\dmd_display.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbdep.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_rectangle.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\i2cspm.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_int.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbdch9.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbhal.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\prox.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_circle.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_line.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\rtcdriver.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_assert.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_bitmap.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbdch9.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_gpio.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\si114x_algorithm.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\udelay.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_int.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\prox.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\hidmouse.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\i2cspm.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_line.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\graphics.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_i2c.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_i2c.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_rtc.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\hidmouse.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\bsp_stk_leds.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\displayls013b7dh03.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_font_normal_8x8.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_font_normal_8x8.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib.o</file>
+      <file>$PROJ_DIR$\..\..\..\config\bspconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_pcnt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dma_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_leuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_af_pins.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_prs.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\i2cspm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displayls013b7dh03.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displayconfigall.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_usb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cm0plus.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_int.h</file>
+      <file>$PROJ_DIR$\..\usbconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_devinfo.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\emstatus.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_i2c.h</file>
+      <file>$PROJ_DIR$\..\graphics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\system_efm32hg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_timer_cc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_wdog.h</file>
+      <file>$PROJ_DIR$\..\si114x_algorithm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\hidmouse.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\inc\em_usbhal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\displayconfig.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_wdog.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_vcmp.h</file>
+      <file>$PROJ_DIR$\..\descriptors.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_gpio_p.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\display.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_bcp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\arm_math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\i2cspmconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\displaypalconfig.h</file>
+      <file>$PROJ_DIR$\..\prox.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_i2c.h</file>
+      <file>$PROJ_DIR$\..\displayconfigapp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_color.h</file>
+      <file>$PROJ_DIR$\..\background.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg322f64.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\uchar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\em_device.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\Si114x_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displaybackend.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_aes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_mtb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_calibrate.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_acmp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\udelay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_romtable.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\usb\inc\em_usbtypes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Include\efm32hg_cmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\si1147_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\displaypal.h</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_prs.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_cmu.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\displaypalemlib.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_emu.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_string.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbtimer.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbhal.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usart.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\glib_rectangle.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\udelay.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\startup_efm32hg.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\displayls013b7dh03.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_prs.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\rtcdriver.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\display.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Exe\usbdhidkbd.bin</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\background.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\dmd_display.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\system_efm32hg.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\background.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbdint.o</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\system_efm32hg.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbd.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usbdint.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_wdog.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_rtc.pbi</file>
+      <file>$PROJ_DIR$\usbdhidkbd\Release\Obj\em_usart.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Source\IAR\startup_efm32hg.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Device\SiliconLabs\EFM32HG\Source\system_efm32hg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 198 195 183 150 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 210 79 165 78 148 168 191 77 147 155 57 187 179 202</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\displaypalemlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 210 169 165 170 46 79 78 198 195 183 150 206 173 200 194 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 75 70 54 60 51 62 139 181 211 148 168 191 77 147 155 57 187 217</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\displayls013b7dh03.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 210 169 165 170 46 79 78 148 168 191 77 147 155 57 187 217 202 179</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\si1147_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 186 54 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 70 60 156 44 199 216</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\i2cspm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196 201 43 178 59 47 167 184 165 75 198 195 183 150 76 206 173 200 194 79 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 70 54 60 186 146 156</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\si114x_functions.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 199</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\udelay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 75 210 70 152 171 211</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emdrv\rtcdrv\src\rtcdriver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 201 43 178 59 47 167 184 165 78 198 195 183 150 76 206 173 200 194 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 75 210 70 189 152 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 219</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 70 60 144</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_emu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 70 75 41 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 70 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 75 70 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 152 198 195 183 150 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 60 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 75 70 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_wdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 210 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 42 60 153 196 189 210 152 197 75 70 214 164 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdch9.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 42 60 153 196 189 210 152 197 214 164 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 42 60 153 196 189 210 152 197 214 164 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbdint.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 239</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 42 60 153 196 189 210 152 197 75 70 214 164 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbhal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 42 60 153 196 189 210 152 197 214 164 53 75 70 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\usb\src\em_usbtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 42 60 153 196 189 210 152 197 75 70 208 214 164</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\dmd\display\dmd_display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 46 165 210 79 78 179 155 57 148 168 191 77 147 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 57 198 195 183 150 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 185 210 46 192 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_bitmap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 57 185 210 46 165 192 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_line.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 210 57 185 46 165 192 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_circle.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 57 185 210 46 165 192 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_font_normal_8x8.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 185 210 46 165 192 58 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_rectangle.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 57 185 210 46 165 192 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\background.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\glib\glib\glib_string.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 201 43 178 59 47 167 184 79 165 78 210 57 185 46 192 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\descriptors.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176 42 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 60 153 196 189 210 152 197 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\graphics.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 76 201 43 178 59 47 167 184 210 57 179 155 148 168 191 77 147 187 74 55 193 79 165 78 169 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 68 41 210 75 70 144 54 60 172 42 153 196 189 152 197 176 80 188 146 186 156 162 44 199 182 139 181 157 193 62 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\prox.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 68 41 210 75 70 54 60 139 181</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\si114x_algorithm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 44 199 216</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_stk_leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 75 210 70 54 60 62 139 181 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbdhidkbd\Release\Exe\usbdhidkbd.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_prs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 230</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 60 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\hidmouse.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 195 183 150 76 201 43 178 59 47 167 184 206 173 200 194 79 165 78 52 166 204 158 203 141 174 65 56 149 63 180 69 215 159 151 209 50 71 72 49 177 160 175 213 142 140 190 38 161 205 66 154 212 207 67 45 73 48 143 189 210 42 60 153 196 152 197 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
